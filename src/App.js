@@ -11,13 +11,10 @@ class App extends React.Component {
       <div>
         <Header />
         <SolarSystem />
-        <PlanetCard planetName="" />
-        <PlanetCard planetImage="" />
+        <PlanetCard planetName="" planetImage="" />
         <Missions />
-        <MissionCard name="name" />
-        <MissionCard year="year" />
-        <MissionCard country="country" />
-        <MissionCard destination="destination" />
+        <MissionCard name="name" year="year" />
+        <MissionCard country="country" destination="destination" />
       </div>
     );
   }
